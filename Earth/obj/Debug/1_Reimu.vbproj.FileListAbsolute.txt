@@ -1,0 +1,8 @@
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\Reimu.Resources.resources
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\1_Reimu.vbproj.GenerateResource.cache
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\bin\Debug\Reimu.dll
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\bin\Debug\Reimu.pdb
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\Reimu.dll
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\Reimu.pdb
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\1_Reimu.vbproj.AssemblyReference.cache
+D:\VisualStudio_works\Touhou_comp_stg\Character\Reimu\obj\Debug\1_Reimu.vbproj.CoreCompileInputs.cache

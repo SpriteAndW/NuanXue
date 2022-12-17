@@ -1,0 +1,17 @@
+D:\VisualStudio_works\GJ_1\bin\Debug\Character\Earth\Earth.dll
+D:\VisualStudio_works\GJ_1\bin\Debug\Character\Earth\Earth.pdb
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\2_earth.vbproj.AssemblyReference.cache
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\Earth.Resources.resources
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\2_earth.vbproj.GenerateResource.cache
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\2_earth.vbproj.CoreCompileInputs.cache
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\Earth.dll
+D:\VisualStudio_works\GJ_1\Character\Earth\obj\Debug\Earth.pdb
+E:\新建文件夹\Earth\obj\Debug\2_earth.vbprojAssemblyReference.cache
+E:\新建文件夹\Earth\obj\Debug\Earth.Resources.resources
+E:\新建文件夹\Earth\obj\Debug\2_earth.vbproj.GenerateResource.cache
+E:\新建文件夹\Earth\obj\Debug\2_earth.vbproj.CoreCompileInputs.cache
+E:\新建文件夹\Earth\obj\Debug\Earth.dll
+E:\新建文件夹\Earth\obj\Debug\Earth.pdb
+E:\新建文件夹\second_field\Character\Earth\Earth.dll
+E:\新建文件夹\second_field\Character\Earth\Earth.pdb
+E:\新建文件夹\Earth\obj\Debug\2_earth.vbproj.CopyComplete

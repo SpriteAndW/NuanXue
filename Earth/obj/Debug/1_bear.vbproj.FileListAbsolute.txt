@@ -1,0 +1,16 @@
+D:\VisualStudio_works\GJ_1\Character\Reimu\bin\Debug\Bear.dll
+D:\VisualStudio_works\GJ_1\Character\Reimu\bin\Debug\Bear.pdb
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\1_bear.vbproj.AssemblyReference.cache
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\Bear.Resources.resources
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\1_bear.vbproj.GenerateResource.cache
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\1_bear.vbproj.CoreCompileInputs.cache
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\Bear.dll
+D:\VisualStudio_works\GJ_1\Character\Reimu\obj\Debug\Bear.pdb
+D:\VisualStudio_works\GJ_1\bin\Debug\Character\Bear\Bear.dll
+D:\VisualStudio_works\GJ_1\bin\Debug\Character\Bear\Bear.pdb
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\1_bear.vbproj.AssemblyReference.cache
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\Bear.Resources.resources
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\1_bear.vbproj.GenerateResource.cache
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\1_bear.vbproj.CoreCompileInputs.cache
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\Bear.dll
+D:\VisualStudio_works\GJ_1\Character\Bear\obj\Debug\Bear.pdb

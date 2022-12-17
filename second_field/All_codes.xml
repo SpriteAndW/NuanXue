@@ -1,0 +1,485 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+All_codes
+</name>
+</assembly>
+<members>
+<member name="T:All_codes.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:All_codes.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:All_codes.My.Resources.Resources.Culture">
+<summary>
+  重写当前线程的 CurrentUICulture 属性
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member>
+<member name="T:All_codes.Def_feature">
+ <summary>用于给弹幕.Feature做特殊动作，此类可继承</summary>
+</member>
+<member name="M:All_codes.Def_feature.Bmove">
+ <summary>每帧都会执行的过程，在依速度移动之后，Char_Bmove之前</summary>
+</member>
+<member name="M:All_codes.Def_feature.Bdeath(System.Double)">
+ <summary>宣告弹幕消除或进行特殊进程</summary>
+ <param name="more">0击中敌机,1出界,2消弹,3特殊</param>
+</member>
+<member name="P:All_codes.Sound_DS.Volume">
+ <summary>声音大小，0为最大，负数为减小的分贝数，最小-10000</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Sound_DS.Volume_pct">
+ <summary>音量（百分化 ），最大为100，最小为0(等价于-100dB)</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Sound_DS.Pan">
+ <summary>左右声道偏移，-10000至+10000</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Sound_DS.State">
+ <summary>播放状态，播放中1，暂停、停止0</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Sound_DS.Position_byte">
+ <summary>当前播放位置(字节)</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Sound_DS.Position">
+ <summary>当前播放位置,输入量超过文件长度时会设为0</summary>
+ <returns></returns>
+</member>
+<member name="M:All_codes.Sound_DS.#ctor(System.String,System.Double,System.Double)">
+ <summary>创建实例并加载wav文件</summary>
+ <param name="file_path">文件完整地址</param>
+ <param name="volume_pct">音量,默认100为满音量</param>
+ <param name="extra_time">文件播放完后多留出的buffer长度(秒)
+ 某些声音特效不希望文件播放完后立即终止</param>
+</member>
+<member name="M:All_codes.Sound_DS.Load_file(System.String,System.Double,System.Double)">
+ <summary>加载文件</summary>
+ <param name="file_path">文件完整地址</param>
+ <param name="extra_time">文件播放完后多留出的buffer长度(秒)
+ 某些声音特效不希望文件播放完后立即终止</param>
+ <returns>成功为True，找不到文件为False</returns>
+</member>
+<member name="M:All_codes.Sound_DS.Play(System.Boolean,System.Int32)">
+ <summary>从头播放音频，没加载文件不会报错</summary>
+ <param name="flag_in">SharpDX.DirectSound.PlayFlags枚举。单次播放0，循环播放1，不填不更改</param>
+</member>
+<member name="M:All_codes.Sound_DS.Pause">
+ <summary>暂停播放，没加载文件不会报错</summary>
+</member>
+<member name="T:All_codes.Sound_DS.Effect_enum">
+ <summary>各种音效的枚举，作为Set_effect输入量</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Chorus">
+ <summary>合唱; 微调原生与回声的延迟</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Compressor">
+ <summary>压缩; 压缩某些振幅</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Distortion">
+ <summary>失真; 将波形顶部修改为方形或锯齿形</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Echo">
+ <summary>回声; 重复并衰减回声</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Flanger">
+ <summary>镶边; 延迟回声</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.Gargle">
+ <summary>漱口; 有人叫它咕嘟效果</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.I3DL2REVERB">
+ <summary>环境混响</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.ParametricEqualizer">
+ <summary>均衡; 缩放不同频率的信号
+ 请用简称parameq上网找教程</summary>
+</member>
+<member name="F:All_codes.Sound_DS.Effect_enum.WavesReverb">
+ <summary>混响; DirectX Media Objects(DMOs), 是微软从 Waves 购买的声音处理技术</summary>
+</member>
+<member name="M:All_codes.Sound_DS.Set_effects(All_codes.Sound_DS.Effect_enum[],System.Object[],System.Int32[],System.Int32[])">
+ <summary>设定此声音的所有声音效果</summary>
+ <param name="type_in">效果类型</param>
+ <param name="settings">对应的Settings，如Echo对应SharpDX.DirectSound.EchoSettings结构，要和第一参数对齐序号
+ 某项使用默认值也可单项留Nothing/null</param>
+ <param name="I3DL2REVERB_present">环境混响型的Present变量，要和第一参数对齐序号，其他类型请留空</param>
+ <param name="I3DL2REVERB_quality">环境混响型的Quality变量，要和第一参数对齐序号，其他类型请留空</param>
+</member>
+<member name="F:All_codes.Def_char.color_set">
+ <summary>  0可用,1小CD,2bar不足  </summary>
+</member>
+<member name="P:All_codes.Def_char.Xtrick">
+ <summary>在对敌方snipe时应当使用此X坐标，可以重载而骗过自机狙</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Def_char.Ytrick">
+ <summary>在对敌方snipe时应当使用此Y坐标，可以重载而骗过自机狙</summary>
+ <returns></returns>
+</member>
+<member name="M:All_codes.Def_char.Char_Pregen">
+ <summary>自机弹药槽回复等，哑火也会运行。
+ 时停且没有时停抗性zj(ld).anti_time_stop时时不执行</summary>
+</member>
+<member name="M:All_codes.Def_char.Char_Pshoot">
+ <summary>自机射击等，weapon_jam_t>=1时不执行。
+ 时停且没有时停抗性zj(ld).anti_time_stop时时不执行</summary>
+</member>
+<member name="M:All_codes.Def_char.Def_hit_shoot(System.Int32)">
+ <summary>被弹幕判定击中时的行为</summary>
+ <param name="target">击中自机的弹幕编号</param>
+</member>
+<member name="M:All_codes.Def_char.Def_hit_melee(System.Int32)">
+ <summary>被格斗判定击中时的行为</summary>
+ <param name="target">击中自机的弹幕编号</param>
+</member>
+<member name="T:All_codes.Def_char.Bt_d">
+ <summary>默认类自带的弹幕类型,normal,rotate,fade可以用用，其他的别用</summary>
+</member>
+<member name="F:All_codes.Def_char.Bt_d.empty">
+ <summary>指示弹幕没有初始化，请不要对弹幕手动赋值</summary>
+</member>
+<member name="F:All_codes.Def_char.Bt_d.normal">
+ <summary>最普通的弹幕，只会匀速直线移动</summary>
+</member>
+<member name="F:All_codes.Def_char.Bt_d.rotate">
+ <summary>以ls为角速度让图片旋转，运动还是匀速直线</summary>
+</member>
+<member name="F:All_codes.Def_char.Bt_d.fade">
+ <summary>ls是每帧减弱透明度opacity的量，lsm(0)是判定消失的阈值(不赋值则为{0.25})，透明度降到0以下则消失</summary>
+</member>
+<member name="M:All_codes.Def_char.Def_melee_hit_effect(System.Double,System.Double,System.Int32,System.Double)">
+ <summary>默认的格斗击中特效：击退、震屏和钢花效果</summary>
+ <param name="shake_gain">震屏强度（默认为10帧衰减至0.1倍）</param>
+ <param name="shock_speed2">击退赋予的额外速度（默认每帧额外速度-0.1）</param>
+ <param name="color_ind">钢花效果颜色</param>
+ <param name="direction">击退和震屏方向（震屏为轴向震动）不填则为自机和敌机连线方向</param>
+</member>
+<member name="F:All_codes.Common_funcs.Collide_shape.circle">
+ <summary>圆形，半径hit_r或bound_radius</summary>
+</member>
+<member name="F:All_codes.Common_funcs.Collide_shape.rect">
+ <summary>矩形激光，宽度一半hit_r，长度length，从原点向p_ang正方向延伸</summary>
+</member>
+<member name="F:All_codes.Common_funcs.Hit_prop.none">
+ <summary>不进行击中判定，但可以被消弹</summary>
+</member>
+<member name="F:All_codes.Common_funcs.Hit_prop.shoot">
+ <summary>弹幕判定</summary>
+</member>
+<member name="F:All_codes.Common_funcs.Hit_prop.melee">
+ <summary>格斗判定</summary>
+</member>
+<member name="M:All_codes.Common_funcs.Snipe(System.Double,System.Double,System.Double,System.Double)">
+ <summary>计算从坐标1到坐标2的方向</summary>
+ <param name="x1"></param>
+ <param name="y1"></param>
+ <param name="x2"></param>
+ <param name="y2"></param>
+ <returns>返回角度(360为一圈)</returns>
+</member>
+<member name="M:All_codes.Common_funcs.Distance_c(System.Double,System.Double,System.Double,System.Double)">
+ <summary>计算从坐标1到坐标2的距离</summary>
+ <param name="x1"></param>
+ <param name="y1"></param>
+ <param name="x2"></param>
+ <param name="y2"></param>
+ <returns>返回距离</returns>
+</member>
+<member name="M:All_codes.Common_funcs.Rnd2(System.Int32)">
+ <summary>可由rep复现的随机数</summary>
+ <param name="way">0至3，四个默认的随机数种子，建议不填</param>
+ <returns></returns>
+</member>
+<member name="M:All_codes.Common_funcs.Rnd2_reset(System.Int32,System.Int64)">
+ <summary>给随机数种子初次赋值</summary>
+ <param name="way">0至3，四个默认的随机数种子</param>
+ <param name="long_in">做人物不要填，long型重置种子，一般用Now.ticks</param>
+ <returns></returns>
+</member>
+<member name="F:All_codes.Core.mission_ind">
+ <summary>选关，从第0关开始数</summary>
+</member>
+<member name="M:All_codes.D2D_draw.Load_Bitmap1(System.String,System.Int32)">
+ <summary>加载图片文件</summary>
+ <param name="fileName">图片文件的完整地址</param>
+ <param name="frameIndex">GIF图片的帧序号</param>
+ <returns></returns>
+</member>
+<member name="M:All_codes.D2D_draw.Assign_shake(System.Double,System.Double,System.Double)">
+ <summary> 经过decay帧衰减为0.1倍,方向不填就全向震动 </summary>
+</member>
+<member name="F:All_codes.Bullet.age">
+ <summary>每帧递增1，时停不递增</summary>
+</member>
+<member name="F:All_codes.Bullet.ls">
+ <summary>可自用的临时变量</summary>
+</member>
+<member name="F:All_codes.Bullet.lsm">
+ <summary>可自用的临时变量</summary>
+</member>
+<member name="F:All_codes.Bullet.lsm2">
+ <summary>可自用的临时变量</summary>
+</member>
+<member name="M:All_codes.Bullet.Traversal_bullet(System.Int32,System.Action{System.Int32})">
+ <summary>遍历某方的所有弹幕并执行using_sub过程</summary>
+ <param name="father">被遍历的弹幕对应的自机序号(1或2)</param>
+ <param name="using_sub">被调用的方法，被赋予的输入量为弹幕序号，不能有返回值</param>
+</member>
+<member name="M:All_codes.Bullet.B_real_delete">
+ <summary> more:0击中敌机,1出界,2消弹,3特殊 </summary>
+</member>
+<member name="M:All_codes.Bullet.Wipe_bullet(System.Double,System.Double,System.Double,System.Int32,All_codes.Common_funcs.Collide_shape,System.Double,System.Double,System.Int32)">
+ <summary>消除弹幕</summary>
+ <param name="x">横坐标</param>
+ <param name="y">纵坐标</param>
+ <param name="hit_r">消弹半径</param>
+ <param name="father">写自己的.dad才能消除对方弹幕</param>
+ <param name="shape">若是激光判定则写Collide_shape.rect</param>
+ <param name="p_ang">激光角度</param>
+ <param name="length">激光长度</param>
+ <param name="wipe_type">相当于给被消除弹幕Bdeath过程的more参数，最好不填</param>
+</member>
+<member name="M:All_codes.Bullet.Bdeath(System.Double)">
+ <summary>宣告弹幕消除或进行特殊进程</summary>
+ <param name="more">0击中敌机,1出界,2消弹,3特殊</param>
+</member>
+<member name="M:All_codes.Bullet_add.Bini(All_codes.Photo,System.Double,System.Double,System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Single,System.Double,System.Double)">
+ <summary> 初始化一个弹幕 </summary>
+ <param name="source">图片素材</param>
+ <param name="x">横坐标</param>
+ <param name="y">纵坐标</param>
+ <param name="angle">图片角度和速度角度</param>
+ <param name="speed">速度</param>
+ <param name="father">对应自机的index</param>
+ <param name="layer">图层，默认-3至+4</param>
+ <param name="character">人物，请用global_ind(自定义)或DEF_CHAR_IND(默认类的弹幕种类)</param>
+ <param name="type">细分种类</param>
+ <param name="hit_r">判定半径，不填就使用source.hit_r*scale_y</param>
+ <param name="damage">伤害，默认1，可不改</param>
+ <param name="opacity">透明度，0至1之间，过界不会报错</param>
+ <param name="scale_x">横向(轴向)缩放比</param>
+ <param name="scale_y">纵向(径向)缩放比</param>
+ <returns>弹幕的序数，以后使用此弹幕可以用dm(序数)</returns>
+</member>
+<member name="F:All_codes.Gauge.Regen_type.standard">
+ <summary>常规，小CD内不回弹</summary>
+</member>
+<member name="F:All_codes.Gauge.Regen_type.clear_out">
+ <summary>槽降到bar_least以下后才开始回弹，回满之前都是CD状态</summary>
+</member>
+<member name="F:All_codes.Gauge.Show_type.hide">
+ <summary>完全不显示</summary>
+</member>
+<member name="F:All_codes.Gauge.Show_type.normal_bar">
+ <summary>战场外直槽显示</summary>
+</member>
+<member name="F:All_codes.Gauge.Show_type.on_zj_l">
+ <summary>战场外直槽显示，自机左侧弧（先放的在外圈）</summary>
+</member>
+<member name="F:All_codes.Gauge.Show_type.on_zj_r">
+ <summary>战场外直槽显示，自机右侧弧（先放的在外圈）</summary>
+</member>
+<member name="M:All_codes.Gauge.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.String,All_codes.Gauge.Regen_type,System.Double,System.Double,All_codes.Gauge.Show_type)">
+ <summary>创建一个弹药槽</summary>
+ <param name="bar">初始弹药数</param>
+ <param name="bar_max">弹药上限，弹药有上限没有下限，可为负但显示0</param>
+ <param name="bar_regen">不在小CD时每帧回复量</param>
+ <param name="cd">初始小CD，期间不能使用弹药，不能回弹</param>
+ <param name="cd_default">默认小CD，使用时不注明就用上这个值</param>
+ <param name="name">弹药槽上显示的名称</param>
+ <param name="reg_way">回复方式，详见枚举</param>
+ <param name="graze_gain">擦一个弹回复槽的量，默认为bar_regen*5</param>
+ <param name="bar_least">默认单次使用消耗，弹药数低于此数则“打完回弹”的槽开始回复</param>
+ <param name="show_way">显示方式，详见枚举</param>
+</member>
+<member name="F:All_codes.Obj.source">
+ <summary>图片源</summary>
+</member>
+<member name="F:All_codes.Obj.sx">
+ <summary>中心点的横坐标，左边缘为0向右为正，默认为正中心</summary>
+</member>
+<member name="F:All_codes.Obj.sy">
+ <summary>中心点的纵坐标，上边缘为0向下为正，默认为正中心</summary>
+</member>
+<member name="F:All_codes.Obj.scale_x">
+ <summary>图像横向缩放倍率</summary>
+</member>
+<member name="F:All_codes.Obj.scale_y">
+ <summary>图像纵向缩放倍率</summary>
+</member>
+<member name="F:All_codes.Obj.mirrored">
+ <summary>图片以过中心点的x轴镜像翻转为1</summary>
+</member>
+<member name="F:All_codes.Obj.x">
+ <summary>横坐标，战场左边缘为0向右为正</summary>
+</member>
+<member name="F:All_codes.Obj.y">
+ <summary>纵坐标，战场上边缘为0向下为正</summary>
+</member>
+<member name="F:All_codes.Obj.p_ang">
+ <summary>图片角度，0向右，逆时针，360一圈</summary>
+</member>
+<member name="F:All_codes.Obj.speed">
+ <summary>速度大小，单位：像素/帧</summary>
+</member>
+<member name="F:All_codes.Obj.mov_ang">
+ <summary>速度角度，0向右，逆时针，360一圈</summary>
+</member>
+<member name="F:All_codes.Obj.vx">
+ <summary>会以speed和mov_ang自动更新的速度横纵分量，可以读取但改了也会重新自动计算</summary>
+</member>
+<member name="F:All_codes.Obj.vy">
+ <summary>会以speed和mov_ang自动更新的速度横纵分量，可以读取但改了也会重新自动计算</summary>
+</member>
+<member name="F:All_codes.Obj.bound_rule">
+ <summary>出界计算方法，0不限，1全在内，2部分在内，3中心在内</summary>
+</member>
+<member name="F:All_codes.Obj.bound_radius">
+ <summary>出界判定半径(其实是以矩形计算)，默认是source.h*scale_y/2</summary>
+</member>
+<member name="F:All_codes.Obj.character">
+ <summary>对应的人物类实例，每个自机有自身人物的实例。
+ 弹幕会共享自机的实例，或共享自机的Def_char默认保留实例</summary>
+</member>
+<member name="F:All_codes.Obj.shape">
+ <summary>判定形状，详见Collide_shape枚举</summary>
+</member>
+<member name="F:All_codes.Obj.hit_r">
+ <summary>判定半径/激光宽度的一半</summary>
+</member>
+<member name="F:All_codes.Obj.length">
+ <summary>激光长度</summary>
+</member>
+<member name="F:All_codes.Obj.opacity">
+ <summary>透明度，0至1，过高过低不会报错</summary>
+</member>
+<member name="F:All_codes.Obj.matrix">
+ <summary>p_ang所带来的绘图矩阵，不用改</summary>
+</member>
+<member name="F:All_codes.Obj.dad">
+ <summary>对应的自机，为1或2，不要手动改。3-dad就是敌机</summary>
+</member>
+<member name="M:All_codes.Obj.Obound(System.Int32)">
+ <summary>0不限，1全在内，2部分在内，3中心在内</summary>
+</member>
+<member name="M:All_codes.Obj.O_reflect">
+ <summary>返回值：1上,2右,3下,4左 </summary>
+</member>
+<member name="M:All_codes.Obj.Key_to_move(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary> 按键至运动角度，和对象本身绑定y  </summary>
+</member>
+<member name="F:All_codes.Player.mark_index">
+ <summary>判定点dm的序数</summary>
+</member>
+<member name="F:All_codes.Player.tm">
+ <summary>自身时钟每帧递增，哑火时也会递增，时停不可动时不递增</summary>
+</member>
+<member name="F:All_codes.Player.dup">
+ <summary>1p2p同角色时，2p的dup=1，其他情况=0</summary>
+</member>
+<member name="F:All_codes.Player.my_gauge">
+ <summary>弹药槽</summary>
+</member>
+<member name="F:All_codes.Player.ctrl">
+ <summary>按键输入</summary>
+</member>
+<member name="F:All_codes.Player.hit_para">
+ <summary>自机判定半径,残血自机判定半径,擦弹半径</summary>
+</member>
+<member name="F:All_codes.Player.Hit_para_use.normal_hit_r">
+ <summary>自机判定半径</summary>
+</member>
+<member name="F:All_codes.Player.Hit_para_use.danger_hit_r">
+ <summary>残血自机判定半径</summary>
+</member>
+<member name="F:All_codes.Player.Hit_para_use.graze_r">
+ <summary>擦弹半径</summary>
+</member>
+<member name="F:All_codes.Player.move_para">
+ <summary>高速,低速,高速转身速度,低速转身速度(度/帧)(转身速度为负则瞄准)</summary>
+</member>
+<member name="F:All_codes.Player.Move_para_use.fast_speed">
+ <summary>高速</summary>
+</member>
+<member name="F:All_codes.Player.Move_para_use.slow_speed">
+ <summary>低速(按住slow)</summary>
+</member>
+<member name="F:All_codes.Player.Move_para_use.fast_turn">
+ <summary>高速转身速度(度/帧),为负则瞄准</summary>
+</member>
+<member name="F:All_codes.Player.Move_para_use.slow_turn">
+ <summary>低速转身速度(度/帧),为负则瞄准</summary>
+</member>
+<member name="F:All_codes.Player.Health_para_use.full_hp">
+ <summary>满血量</summary>
+</member>
+<member name="F:All_codes.Player.Health_para_use.start_hp">
+ <summary>开局血量</summary>
+</member>
+<member name="F:All_codes.Player.Health_para_use.danger_threashold">
+ <summary>收缩判定阈值</summary>
+</member>
+<member name="P:All_codes.Player.X1">
+ <summary>对应character.Xtrick接口，用于骗狙，发动自机狙请使用此X坐标</summary>
+ <returns></returns>
+</member>
+<member name="P:All_codes.Player.Y1">
+ <summary>对应character.Ytrick接口，用于骗狙，发动自机狙请使用此Y坐标</summary>
+ <returns></returns>
+</member>
+<member name="F:All_codes.Player.weapon_jam_t">
+ <summary>哑火，常态递减，最低-1，0或-1时都可以发弹，所以可以用=0检测结束哑火的第一帧</summary>
+</member>
+<member name="F:All_codes.Player.layer_list">
+ <summary>图层信息表  每行：
+ 相对图层序号(此列必须为包含0的连续整数),己方场地的透明度倍数,敌方场地的透明度倍数,颜色混合模式用Blend_type枚举</summary>
+</member>
+<member name="M:All_codes.Player.Skill(System.Boolean,System.Int32,System.Double,System.Int32,System.Int32)">
+ <summary>检测弹药槽是否可以使用，若可输出True并扣槽、添小CD，若不可输出False</summary>
+ <param name="key">为True继续操作，为False则跳过一切直接输出False</param>
+ <param name="num">指定槽的序号(一般为Sk枚举)</param>
+ <param name="subtract">预期槽的消费量</param>
+ <param name="check_only">为Ture只检测不扣槽、不添小CD</param>
+ <param name="cd_add">预期赋予的小CD</param>
+ <returns></returns>
+</member>
+<member name="M:All_codes.Player.Rotate_direction(System.Object)">
+ <summary> 当前或之前p_ang旋转方向,逆1顺-1,要每帧调用才行 </summary>
+</member>
+<member name="F:All_codes.Photo.file_path">
+ <summary>Resource文件夹路径</summary>
+</member>
+<member name="M:All_codes.Photo.#ctor(SharpDX.Direct2D1.Bitmap1@,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Double)">
+ <summary>创建图片信息，注意图片朝向右侧为默认朝向</summary>
+ <param name="source_in">图片文件资源</param>
+ <param name="x_in">裁剪区域左上角横坐标(向右为正)</param>
+ <param name="y_in">裁剪区域左上角纵坐标(向下为正)</param>
+ <param name="w_in">裁剪宽度(向右为正)</param>
+ <param name="h_in">裁剪高度(向下为正)</param>
+ <param name="hit_r_in">默认判定半径</param>
+ <param name="sx_in">中心点横坐标，不填就在正中间</param>
+ <param name="sy_in">中心点纵坐标，不填就在正中间</param>
+</member>
+<member name="M:All_codes.Restart_manage.Quit_restart_program(System.Int32)">
+ <summary> 0退出，1重开游戏，2重开进菜单 </summary>
+</member>
+<member name="M:All_codes.Trans_type.ByteA_pickB(System.Byte[],System.Int32@,System.Int32)">
+ <summary>取array中的一段，且first_index += length</summary>
+ <param name="array"></param>
+ <param name="first_index"></param>
+ <param name="length"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

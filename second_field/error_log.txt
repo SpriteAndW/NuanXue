@@ -1,0 +1,936 @@
+﻿[2021/3/6 0:45:12]
+无法将类型为“SharpDX.Direct2D1.Bitmap”的对象强制转换为类型“SharpDX.Direct2D1.Bitmap1”。
+[2021/3/7 13:47:15]
+HRESULT: [0x8899001E], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_INVALID_GRAPH_CONFIGURATION/InvalidGraphConfiguration], Message: 图表中存在配置错误。
+
+[2021/3/11 11:35:46]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/3/16 0:05:44]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/16 0:06:28]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/16 0:08:51]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/16 0:09:31]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/16 0:09:49]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/16 0:11:21]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/17 14:12:21]
+值不能为 null。
+参数名: type
+[2021/3/17 14:31:16]
+HRESULT: [0x88990001], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_STATE/WrongState], Message: 对象未处于正确的状态来处理此方法。
+
+[2021/3/17 14:44:19]
+未将对象引用设置到对象的实例。
+[2021/3/17 14:57:32]
+值不能为 null。
+参数名: type
+[2021/3/17 22:43:05]
+HRESULT: [0x88990001], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_STATE/WrongState], Message: 对象未处于正确的状态来处理此方法。
+
+[2021/3/17 22:43:40]
+HRESULT: [0x88990001], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_STATE/WrongState], Message: 对象未处于正确的状态来处理此方法。
+
+[2021/3/17 22:44:22]
+HRESULT: [0x88990001], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_STATE/WrongState], Message: 对象未处于正确的状态来处理此方法。
+
+[2021/3/20 18:27:14]
+字符串的长度不能为零。
+[2021/3/20 18:46:01]
+索引超出了数组界限。
+[2021/3/21 11:33:34]
+未将对象引用设置到对象的实例。
+[2021/3/21 11:35:27]
+未将对象引用设置到对象的实例。
+[2021/3/21 11:36:55]
+未将对象引用设置到对象的实例。
+[2021/3/21 11:37:09]
+未将对象引用设置到对象的实例。
+[2021/3/21 11:38:03]
+索引超出了数组界限。
+[2021/3/21 12:20:06]
+未能加载文件或程序集“Gundam_style_game”或它的某一个依赖项。系统找不到指定的文件。
+[2021/3/21 13:10:26]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/3/21 14:08:18]
+输入字符串的格式不正确。
+[2021/3/21 16:04:55]
+HRESULT: [0x887A0005], Module: [SharpDX.DXGI], ApiCode: [DXGI_ERROR_DEVICE_REMOVED/DeviceRemoved], Message: GPU 设备实例已经暂停。使用 GetDeviceRemovedReason 以确定相应的措施。
+
+[2021/3/23 22:50:48]
+未将对象引用设置到对象的实例。
+[2021/3/23 23:00:35]
+未将对象引用设置到对象的实例。
+[2021/3/23 23:01:03]
+未将对象引用设置到对象的实例。
+[2021/3/23 23:05:11]
+未将对象引用设置到对象的实例。
+[2021/3/23 23:05:22]
+未将对象引用设置到对象的实例。
+[2021/3/23 23:05:29]
+未将对象引用设置到对象的实例。
+[2021/3/24 12:03:04]
+系统找不到指定的文件。
+[2021/3/24 18:21:23]
+未将对象引用设置到对象的实例。
+[2021/3/24 22:14:12]
+未将对象引用设置到对象的实例。
+[2021/3/25 13:40:44]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/3/25 13:46:35]
+索引超出了数组界限。
+[2021/3/25 20:55:38]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/3/25 20:56:09]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/3/25 21:32:49]
+在执行此操作前必须先调用 Bind 方法。
+[2021/3/25 21:33:18]
+在执行此操作前必须先调用 Bind 方法。
+[2021/3/26 0:29:28]
+未将对象引用设置到对象的实例。
+[2021/3/26 0:29:48]
+未将对象引用设置到对象的实例。
+[2021/3/26 11:12:31]
+未将对象引用设置到对象的实例。
+[2021/3/26 11:12:48]
+未将对象引用设置到对象的实例。
+[2021/3/26 11:14:21]
+在执行此操作前必须先调用 Bind 方法。
+[2021/4/2 17:17:00]
+HRESULT: [0x8007001E], Module: [SharpDX.DirectInput], ApiCode: [DIERR_INPUTLOST/InputLost], Message: 系统无法从指定的设备上读取。
+
+[2021/4/2 19:03:07]
+字符串的长度不能为零。
+[2021/4/2 19:03:44]
+从字符串“”到类型“Byte”的转换无效。
+[2021/4/3 16:25:48]
+从字符串“”到类型“Byte”的转换无效。
+[2021/4/3 16:26:39]
+从字符串“”到类型“Byte”的转换无效。
+[2021/4/3 16:29:37]
+字符串的长度不能为零。
+[2021/4/3 16:30:34]
+从字符串“”到类型“Byte”的转换无效。
+[2021/4/3 16:31:52]
+从字符串“”到类型“Byte”的转换无效。
+[2021/4/4 22:33:18]
+索引超出了数组界限。
+[2021/4/5 0:03:11]
+索引超出了数组界限。
+[2021/4/8 19:50:37]
+SendKeys 无法在此应用程序内运行，原因是此应用程序不处理 Windows 消息。  请将此应用程序更改为可处理消息，或者使用 SendKeys.SendWait 方法。
+[2021/4/8 20:27:32]
+HRESULT: [0x8007001E], Module: [SharpDX.DirectInput], ApiCode: [DIERR_INPUTLOST/InputLost], Message: 系统无法从指定的设备上读取。
+
+[2021/4/9 12:31:04]
+值不能为 null。
+参数名: type
+[2021/4/9 16:57:50]
+未将对象引用设置到对象的实例。
+[2021/4/10 15:01:39]
+未将对象引用设置到对象的实例。
+[2021/4/10 15:05:12]
+值不能为 null。
+参数名: type
+[2021/4/10 15:05:43]
+未将对象引用设置到对象的实例。
+[2021/4/10 15:07:19]
+索引超出了数组界限。
+[2021/4/15 0:57:29]
+未将对象引用设置到对象的实例。
+[2021/4/15 1:08:44]
+无法将类型为“System.Object[]”的对象强制转换为类型“Touhou_comp_stg.Entry[]”。
+[2021/4/15 17:37:44]
+尝试除以零。
+[2021/4/15 17:41:24]
+尝试除以零。
+[2021/4/15 22:01:37]
+未将对象引用设置到对象的实例。
+[2021/4/16 23:36:18]
+未能找到路径“D:\VisualStudio_works\Touhou_comp_stg\bin\Debug\Replay”的一部分。
+[2021/4/18 21:55:26]
+未将对象引用设置到对象的实例。
+[2021/4/19 12:15:55]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/4/19 12:17:06]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/4/19 12:18:10]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/4/19 12:18:35]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/4/19 13:42:06]
+索引超出了数组界限。
+[2021/4/19 16:42:35]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/4/19 17:36:21]
+索引超出了数组界限。
+[2021/4/19 18:09:02]
+索引超出了数组界限。
+[2021/4/20 13:03:34]
+指定的转换无效。
+[2021/4/20 13:03:46]
+指定的转换无效。
+[2021/4/20 13:05:41]
+指定的转换无效。
+[2021/4/20 13:06:50]
+指定的转换无效。
+[2021/4/20 13:07:14]
+指定的转换无效。
+[2021/4/20 13:08:03]
+指定的转换无效。
+[2021/4/20 16:47:26]
+未将对象引用设置到对象的实例。
+[2021/4/20 21:26:50]
+索引超出了数组界限。
+[2021/4/20 21:55:05]
+索引超出了数组界限。
+[2021/4/20 21:55:39]
+索引超出了数组界限。
+[2021/4/21 17:14:43]
+索引超出了数组界限。
+[2021/4/21 21:20:44]
+索引超出了数组界限。
+[2021/4/23 15:53:28]
+未将对象引用设置到对象的实例。
+[2021/4/23 15:54:14]
+索引超出了数组界限。
+[2021/4/23 15:54:51]
+索引超出了数组界限。
+[2021/4/23 15:56:07]
+索引超出了数组界限。
+[2021/4/23 15:58:26]
+未将对象引用设置到对象的实例。
+[2021/4/23 16:32:28]
+从字符串“"”到类型“Integer”的转换无效。
+[2021/4/23 16:35:37]
+HRESULT: [0x887A0005], Module: [SharpDX.DXGI], ApiCode: [DXGI_ERROR_DEVICE_REMOVED/DeviceRemoved], Message: GPU 设备实例已经暂停。使用 GetDeviceRemovedReason 以确定相应的措施。
+
+[2021/4/23 18:26:06]
+索引超出了数组界限。
+[2021/4/25 16:45:12]
+索引超出了数组界限。
+[2021/4/25 17:33:51]
+HRESULT: [0x80070020], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 另一个程序正在使用此文件，进程无法访问。
+
+[2021/4/25 18:39:36]
+索引超出了数组界限。
+[2021/4/25 18:40:07]
+索引超出了数组界限。
+[2021/5/2 10:26:54]
+未将对象引用设置到对象的实例。
+[2021/5/4 20:58:49]
+索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+[2021/5/5 17:41:08]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 16:09:52]
+未将对象引用设置到对象的实例。
+[2021/5/6 18:44:17]
+索引和计数必须引用该缓冲区内的位置。
+参数名: chars
+[2021/5/6 18:45:02]
+索引和计数必须引用该缓冲区内的位置。
+参数名: chars
+[2021/5/6 19:24:41]
+从字符串“”到类型“Byte”的转换无效。
+[2021/5/6 20:58:00]
+未将对象引用设置到对象的实例。
+[2021/5/6 20:58:48]
+作为 String 传入的指针一定不能位于进程地址空间的低位 64K。
+[2021/5/6 20:59:30]
+参数“Length”必须大于或等于 0。
+[2021/5/6 21:00:28]
+参数“Length”必须大于或等于 0。
+[2021/5/6 21:00:53]
+参数“Length”必须大于或等于 0。
+[2021/5/6 21:11:21]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 21:11:45]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 21:12:23]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 21:12:52]
+无法加载 DLL“ kernel32 ”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+[2021/5/6 21:13:08]
+无法在 DLL“kernel32”中找到名为“GetPrivateProfileStringAxx”的入口点。
+[2021/5/6 21:13:36]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 21:19:56]
+从字符串“”到类型“Integer”的转换无效。
+[2021/5/6 22:42:10]
+索引超出了数组界限。
+[2021/5/7 0:24:53]
+未将对象引用设置到对象的实例。
+[2021/5/7 12:09:59]
+索引超出了数组界限。
+[2021/5/7 14:15:04]
+String 引用没有设置为 String 的实例。
+参数名: s
+[2021/5/7 15:12:35]
+未将对象引用设置到对象的实例。
+[2021/5/8 23:07:11]
+索引超出了数组界限。
+[2021/5/12 0:47:41]
+从字符串“”到类型“Byte”的转换无效。
+[2021/5/12 0:48:25]
+从字符串“”到类型“Byte”的转换无效。
+[2021/5/12 0:48:57]
+从字符串“”到类型“Byte”的转换无效。
+[2021/5/12 13:02:33]
+索引超出了数组界限。
+[2021/5/19 13:32:03]
+值不能为 null。
+参数名: type
+[2021/5/20 15:44:54]
+未将对象引用设置到对象的实例。
+[2021/5/20 15:45:29]
+未将对象引用设置到对象的实例。
+[2021/5/20 15:47:43]
+未将对象引用设置到对象的实例。
+[2021/5/20 15:48:41]
+未将对象引用设置到对象的实例。
+[2021/5/20 16:02:09]
+需要绝对路径信息。
+[2021/5/20 16:03:00]
+参数错误。 (异常来自 HRESULT:0x80070057 (E_INVALIDARG))
+[2021/5/20 16:03:32]
+未将对象引用设置到对象的实例。
+[2021/5/20 17:42:58]
+需要绝对路径信息。
+[2021/5/20 17:46:13]
+找不到方法:“Int32 All_codes.Bullet_additional.Bini(All_codes.Photo, Double, Double, Double, Double, Int32, Int32, Name, Int32, Double, Double, Single, Double, Double)”。
+[2021/5/20 18:16:19]
+未将对象引用设置到对象的实例。
+[2021/5/20 22:44:49]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/5/20 22:45:10]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/5/20 22:45:42]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/5/20 22:46:10]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/5/22 1:20:50]
+索引超出了数组界限。
+[2021/5/24 23:42:15]
+未能加载文件或程序集“Microsoft.DirectX.AudioVideoPlayback.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:45:33]
+未能加载文件或程序集“Microsoft.DirectX.AudioVideoPlayback.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:46:39]
+未能加载文件或程序集“Microsoft.DirectX.AudioVideoPlayback.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:50:15]
+未能加载文件或程序集“Microsoft.DirectX.AudioVideoPlayback.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:51:02]
+未能加载文件或程序集“Marisa.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:51:31]
+未能加载文件或程序集“Marisa.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/24 23:56:35]
+未能加载文件或程序集“Marisa.dll”或它的某一个依赖项。 不是有效的 Win32 应用程序。 (异常来自 HRESULT:0x800700C1)
+[2021/5/27 17:10:39]
+未将对象引用设置到对象的实例。
+[2021/5/27 18:04:52]
+未将对象引用设置到对象的实例。
+[2021/5/27 18:34:32]
+未将对象引用设置到对象的实例。
+[2021/5/27 18:34:53]
+未将对象引用设置到对象的实例。
+[2021/5/27 18:35:09]
+未将对象引用设置到对象的实例。
+[2021/5/27 18:41:41]
+HRESULT: [0x88960001], Module: [SharpDX.XAudio2], ApiCode: [XAUDIO2_E_INVALID_CALL/InvalidCall], Message: Unknown
+[2021/5/27 18:41:54]
+HRESULT: [0x88960001], Module: [SharpDX.XAudio2], ApiCode: [XAUDIO2_E_INVALID_CALL/InvalidCall], Message: Unknown
+[2021/5/27 19:01:41]
+未将对象引用设置到对象的实例。
+[2021/5/27 20:55:21]
+未将对象引用设置到对象的实例。
+[2021/5/27 20:56:42]
+未将对象引用设置到对象的实例。
+[2021/5/27 20:58:26]
+未将对象引用设置到对象的实例。
+[2021/5/27 20:58:51]
+未将对象引用设置到对象的实例。
+[2021/5/27 21:00:16]
+未将对象引用设置到对象的实例。
+[2021/5/27 21:01:20]
+未将对象引用设置到对象的实例。
+[2021/5/27 21:02:14]
+未将对象引用设置到对象的实例。
+[2021/5/27 21:02:52]
+未将对象引用设置到对象的实例。
+[2021/5/27 22:17:24]
+参数“CharCode”必须在 -32768 到 65535 的范围内。
+[2021/5/27 22:39:34]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/27 22:39:47]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/27 22:48:12]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/27 22:48:40]
+值不能为 null。
+参数名: destination
+[2021/5/27 22:49:56]
+值不能为 null。
+参数名: destination
+[2021/5/27 23:17:10]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/27 23:19:28]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/27 23:33:38]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 1:32:42]
+偏移量和长度超出数组的界限，或者计数大于从索引到源集合结尾处的元素数量。
+[2021/5/28 23:39:26]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:44:17]
+未将对象引用设置到对象的实例。
+[2021/5/28 23:44:59]
+未将对象引用设置到对象的实例。
+[2021/5/28 23:51:56]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:52:17]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:52:41]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:52:56]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:53:22]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/28 23:54:19]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/29 0:00:55]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/29 0:01:09]
+HRESULT: [0x80004002], Module: [General], ApiCode: [E_NOINTERFACE/No such interface supported], Message: 不支持此接口
+
+[2021/5/29 13:16:22]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/29 16:49:57]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/29 16:51:46]
+索引超出了数组界限。
+[2021/5/29 16:52:00]
+索引超出了数组界限。
+[2021/5/29 16:52:25]
+未将对象引用设置到对象的实例。
+[2021/5/29 16:53:15]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/5/31 20:13:56]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/6/1 0:07:06]
+找不到方法:“Void All_codes.Sound_DS.Play_begin(Int32)”。
+[2021/6/1 0:08:27]
+未将对象引用设置到对象的实例。
+[2021/6/1 0:08:51]
+未将对象引用设置到对象的实例。
+[2021/6/1 12:31:01]
+HRESULT: [0x8878001E], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: Unknown
+[2021/6/1 12:40:51]
+HRESULT: [0x8878001E], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: Unknown
+[2021/6/1 12:40:59]
+未将对象引用设置到对象的实例。
+[2021/6/1 12:41:37]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/6/1 12:44:50]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 12:46:52]
+HRESULT: [0x88780032], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: Unknown
+[2021/6/1 12:47:07]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 12:49:02]
+索引超出了数组界限。
+[2021/6/1 12:51:33]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 17:41:39]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 17:42:45]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 17:48:02]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 18:39:55]
+HRESULT: [0x88781161], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: Unknown
+[2021/6/1 18:41:37]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 18:41:47]
+HRESULT: [0x80040154], Module: [SharpDX.DirectInput], ApiCode: [DIERR_DEVICENOTREG/DeviceNotRegistered], Message: 没有注册类
+
+[2021/6/1 22:02:22]
+从类型“ChorusSettings”到类型“String”的转换无效。
+[2021/6/2 0:29:50]
+找不到方法:“Void All_codes.Sound_DS..ctor(System.String)”。
+[2021/6/2 0:29:57]
+找不到方法:“Void All_codes.Sound_DS..ctor(System.String)”。
+[2021/6/7 14:52:32]
+索引超出了数组界限。
+[2021/6/7 22:12:45]
+索引超出了数组界限。
+[2021/6/7 22:14:23]
+索引超出了数组界限。
+[2021/6/7 22:15:24]
+索引超出了数组界限。
+[2021/6/10 18:54:14]
+索引超出了数组界限。
+[2021/6/12 15:27:55]
+算术运算导致溢出。
+[2021/6/12 15:30:24]
+算术运算导致溢出。
+[2021/6/12 15:31:32]
+算术运算导致溢出。
+[2021/6/12 15:38:32]
+算术运算导致溢出。
+[2021/6/12 15:45:45]
+算术运算导致溢出。
+[2021/6/12 15:48:07]
+算术运算导致溢出。
+[2021/6/12 15:48:23]
+算术运算导致溢出。
+[2021/6/12 15:48:58]
+数组维度超过了支持的范围。
+[2021/6/12 15:53:43]
+未将对象引用设置到对象的实例。
+[2021/6/14 21:21:03]
+未能加载文件或程序集“SharpDX.Direct2D1, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1”或它的某一个依赖项。系统找不到指定的文件。
+[2021/6/15 11:52:09]
+未将对象引用设置到对象的实例。
+[2021/6/15 11:52:21]
+未将对象引用设置到对象的实例。
+[2021/6/15 23:20:09]
+未将对象引用设置到对象的实例。
+[2021/6/15 23:20:37]
+未将对象引用设置到对象的实例。
+[2021/6/16 0:56:38]
+未将对象引用设置到对象的实例。
+[2021/6/16 11:21:21]
+索引超出了数组界限。
+[2021/6/16 11:21:36]
+未将对象引用设置到对象的实例。
+[2021/6/16 11:22:19]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:27:54]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:28:22]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:31:55]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:33:12]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:36:22]
+未将对象引用设置到对象的实例。
+[2021/6/16 14:37:06]
+未将对象引用设置到对象的实例。
+[2021/6/16 15:16:53]
+未将对象引用设置到对象的实例。
+[2021/6/16 15:18:01]
+未将对象引用设置到对象的实例。
+[2021/6/16 15:51:25]
+未将对象引用设置到对象的实例。
+[2021/6/16 15:51:37]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:34:38]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:35:07]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:35:15]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:38:29]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:38:35]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:40:59]
+未将对象引用设置到对象的实例。
+[2021/6/16 16:42:34]
+索引超出了数组界限。
+[2021/6/16 16:46:47]
+索引超出了数组界限。
+[2021/6/16 16:48:32]
+索引超出了数组界限。
+[2021/6/16 16:51:20]
+索引超出了数组界限。
+[2021/6/16 16:53:16]
+索引超出了数组界限。
+[2021/6/16 16:56:43]
+从类型“Short()”到类型“Integer”的转换无效。
+[2021/6/16 17:10:25]
+数组维度超过了支持的范围。
+[2021/6/16 17:11:33]
+数组维度超过了支持的范围。
+[2021/6/16 17:15:51]
+数组维度超过了支持的范围。
+[2021/6/16 17:17:36]
+数组维度超过了支持的范围。
+[2021/6/16 17:18:34]
+数组维度超过了支持的范围。
+[2021/6/16 17:25:41]
+提供了一个无效的参数。
+[2021/6/16 17:28:03]
+索引超出了数组界限。
+[2021/6/16 17:34:26]
+从类型“Short()”到类型“Integer”的转换无效。
+[2021/6/16 17:38:09]
+从类型“Short()”到类型“Integer”的转换无效。
+[2021/6/16 17:39:02]
+算术运算导致溢出。
+[2021/6/16 21:20:07]
+索引超出了数组界限。
+[2021/6/16 21:46:26]
+未将对象引用设置到对象的实例。
+[2021/6/16 21:50:14]
+未将对象引用设置到对象的实例。
+[2021/6/16 23:46:05]
+未将对象引用设置到对象的实例。
+[2021/6/17 15:59:23]
+未能找到路径“D:\VisualStudio_works\Touhou_comp_stg\bin\Debug\Resource\BGM”的一部分。
+[2021/6/17 19:55:51]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/6/17 19:56:02]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/6/17 20:03:52]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/6/17 20:04:10]
+索引超出了数组界限。
+[2021/6/17 21:36:16]
+DataPointer is Zero
+[2021/6/17 21:36:41]
+DataPointer is Zero
+[2021/6/17 21:43:07]
+DataPointer is Zero
+[2021/6/17 21:44:31]
+索引超出了数组界限。
+[2021/6/17 21:45:04]
+索引超出了数组界限。
+[2021/6/17 21:45:33]
+索引超出了数组界限。
+[2021/6/17 21:47:23]
+未将对象引用设置到对象的实例。
+[2021/6/17 21:52:33]
+未将对象引用设置到对象的实例。
+[2021/6/17 21:54:17]
+未将对象引用设置到对象的实例。
+[2021/6/17 21:54:25]
+未将对象引用设置到对象的实例。
+[2021/6/17 22:06:06]
+索引超出了数组界限。
+[2021/6/17 22:07:38]
+索引超出了数组界限。
+[2021/6/18 0:26:57]
+HRESULT: [0xC00D36C4], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 不支持给定的 URL 的字节流类型。
+[2021/6/18 0:27:09]
+HRESULT: [0xC00D36C4], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 不支持给定的 URL 的字节流类型。
+[2021/6/18 0:29:13]
+HRESULT: [0xC00D36C4], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 不支持给定的 URL 的字节流类型。
+[2021/6/18 0:32:03]
+索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+[2021/6/18 0:57:16]
+HRESULT: [0xC00D36C4], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 不支持给定的 URL 的字节流类型。
+[2021/6/18 13:09:53]
+找不到字段:“All_codes.Bullet.hit_type”。
+[2021/6/18 13:45:51]
+未将对象引用设置到对象的实例。
+[2021/6/18 16:07:04]
+找不到方法:“Double All_codes.Common_funcs.Rnd2(Int32, Int32, Int64)”。
+[2021/6/18 17:01:17]
+未将对象引用设置到对象的实例。
+[2021/6/18 21:01:44]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:01:49]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:04:16]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:06:14]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:12:22]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:16:48]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/18 21:27:11]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/6/18 21:33:10]
+索引超出了数组界限。
+[2021/6/19 21:12:58]
+算术运算导致溢出。
+[2021/6/19 21:13:47]
+由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+[2021/6/19 21:59:22]
+未将对象引用设置到对象的实例。
+[2021/6/19 22:04:07]
+未将对象引用设置到对象的实例。
+[2021/6/19 22:05:01]
+未将对象引用设置到对象的实例。
+[2021/6/20 10:49:41]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/20 16:17:14]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/6/20 16:24:00]
+索引超出了数组界限。
+[2021/6/21 12:14:54]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/21 12:15:34]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/6/21 13:59:33]
+算术运算导致溢出。
+[2021/6/21 15:49:27]
+指定的参数已超出有效值的范围。
+参数名: startIndex
+[2021/6/21 15:52:05]
+指定的参数已超出有效值的范围。
+参数名: startIndex
+[2021/6/25 18:32:01]
+未将对象引用设置到对象的实例。
+[2021/6/25 20:21:35]
+未将对象引用设置到对象的实例。
+[2021/6/25 20:21:59]
+未将对象引用设置到对象的实例。
+[2021/6/25 21:09:19]
+格式说明符无效。
+[2021/6/25 23:40:07]
+字符串的长度不能为零。
+[2021/6/25 23:41:14]
+字符串的长度不能为零。
+[2021/6/25 23:41:36]
+字符串的长度不能为零。
+[2021/6/25 23:41:55]
+字符串的长度不能为零。
+[2021/6/25 23:42:41]
+字符串的长度不能为零。
+[2021/6/27 15:18:33]
+格式说明符无效。
+[2021/6/27 21:08:58]
+索引超出了数组界限。
+[2021/6/28 11:59:30]
+未将对象引用设置到对象的实例。
+[2021/6/28 12:01:54]
+未将对象引用设置到对象的实例。
+[2021/6/28 12:14:25]
+未将对象引用设置到对象的实例。
+[2021/6/28 23:53:09]
+找不到方法:“Void All_codes.Bullet.Follow_father()”。
+[2021/6/28 23:53:45]
+找不到方法:“Void All_codes.Bullet.Follow_father()”。
+[2021/6/28 23:57:59]
+找不到方法:“Void All_codes.Bullet.Follow_father()”。
+[2021/6/29 1:15:08]
+未将对象引用设置到对象的实例。
+[2021/6/30 13:34:10]
+索引超出了数组界限。
+[2021/7/2 11:24:04]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/7/5 11:13:49]
+HRESULT: [0xC00D36C4], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 不支持给定的 URL 的字节流类型。
+[2021/7/5 23:46:34]
+HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+[2021/7/5 23:51:41]
+SharpDX.SharpDXException: HRESULT: [0x80070057], Module: [General], ApiCode: [E_INVALIDARG/Invalid Arguments], Message: 参数错误。
+
+   在 SharpDX.Result.CheckError()
+   在 SharpDX.DirectSound.DirectSoundBase.CreateSoundBuffer(SoundBufferDescription cDSBufferDescRef, IntPtr& dSBufferOut, ComObject unkOuterRef)
+   在 SharpDX.DirectSound.SecondarySoundBuffer..ctor(DirectSound dSound, SoundBufferDescription bufferDescription)
+   在 All_codes.Sound_DS.Load_file(String file_path, Double volume_pct, Double extra_time) 位置 D:\VisualStudio_works\Touhou_comp_stg\All_codes\Sound_DS.vb:行号 230
+   在 All_codes.Sound_DS..ctor(String file_path, Double volume_pct, Double extra_time) 位置 D:\VisualStudio_works\Touhou_comp_stg\All_codes\Sound_DS.vb:行号 134
+   在 All_codes.Sound_DS.Load_def_bgm() 位置 D:\VisualStudio_works\Touhou_comp_stg\All_codes\Sound_DS.vb:行号 625
+   在 All_codes.Core.Load_battle() 位置 D:\VisualStudio_works\Touhou_comp_stg\All_codes\Core.vb:行号 56
+   在 Touhou_comp_stg.Form1.Form1_Shown(Object sender, EventArgs e) 位置 D:\VisualStudio_works\Touhou_comp_stg\Form1.vb:行号 39
+   在 System.Windows.Forms.Form.OnShown(EventArgs e)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   在 System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+   在 Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+   在 Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(String[] commandLine)
+   在 Touhou_comp_stg.My.MyApplication.Main(String[] Args) 位置 :行号 81
+[2021/7/8 22:28:30]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/7/8 22:28:49]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/7/8 22:29:15]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/7/11 19:56:31]
+未将对象引用设置到对象的实例。
+[2021/7/12 1:16:47]
+索引超出了数组界限。
+[2021/7/13 23:21:38]
+未将对象引用设置到对象的实例。
+[2021/7/21 22:31:36]
+系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+[2021/7/21 22:42:22]
+调用的目标发生了异常。
+[2021/7/25 0:32:24]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/7/25 0:34:07]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/7/27 22:44:24]
+算术运算导致溢出。
+[2021/7/27 22:45:28]
+算术运算导致溢出。
+[2021/7/27 22:46:17]
+算术运算导致溢出。
+[2021/8/2 22:59:56]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/3 1:04:14]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/3 15:44:49]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/3 15:45:08]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/5 21:59:02]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/5 21:59:58]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/6 17:10:26]
+未将对象引用设置到对象的实例。
+[2021/8/6 17:11:18]
+未将对象引用设置到对象的实例。
+[2021/8/6 17:59:44]
+索引超出了数组界限。
+[2021/8/6 18:00:25]
+索引超出了数组界限。
+[2021/8/6 18:00:56]
+索引超出了数组界限。
+[2021/8/13 19:28:17]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/8/13 19:35:49]
+HRESULT: [0x80070003], Module: [Unknown], ApiCode: [Unknown/Unknown], Message: 系统找不到指定的路径。
+
+[2021/8/13 20:07:59]
+未将对象引用设置到对象的实例。
+[2021/8/13 20:08:29]
+索引超出了数组界限。
+[2021/8/13 20:09:43]
+未将对象引用设置到对象的实例。
+[2021/8/13 20:45:24]
+未将对象引用设置到对象的实例。
+[2021/8/13 22:43:13]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/13 22:44:37]
+未将对象引用设置到对象的实例。
+[2021/8/14 9:54:51]
+索引超出了数组界限。
+[2021/8/14 11:08:27]
+索引超出了数组界限。
+[2021/8/14 12:27:45]
+尝试除以零。
+[2021/8/14 17:47:50]
+索引超出了数组界限。
+[2021/8/14 23:38:21]
+索引超出了数组界限。
+[2021/8/15 2:18:17]
+索引超出了数组界限。
+[2021/8/15 10:26:27]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 10:29:04]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 10:46:53]
+索引超出了数组界限。
+[2021/8/15 10:53:50]
+索引超出了数组界限。
+[2021/8/15 11:58:53]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 12:00:11]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 12:00:45]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 13:31:51]
+索引超出了数组界限。
+[2021/8/15 13:58:27]
+索引超出了数组界限。
+[2021/8/15 14:04:19]
+索引超出了数组界限。
+[2021/8/15 14:05:28]
+索引超出了数组界限。
+[2021/8/15 14:38:40]
+算术运算导致溢出。
+[2021/8/15 14:39:10]
+算术运算导致溢出。
+[2021/8/15 14:39:28]
+算术运算导致溢出。
+[2021/8/15 14:39:51]
+算术运算导致溢出。
+[2021/8/15 14:40:07]
+算术运算导致溢出。
+[2021/8/15 14:44:20]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
+[2021/8/15 15:11:04]
+索引超出了数组界限。
+[2021/8/15 15:23:33]
+HRESULT: [0x80070002], Module: [SharpDX.DirectInput], ApiCode: [DIERR_NOTFOUND/NotFound], Message: 系统找不到指定的文件。
+
